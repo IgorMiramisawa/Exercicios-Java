@@ -13,6 +13,8 @@ public class ParOuImpar {
 		System.out.println("Digite um valor ");
 		valor = leia.nextDouble();
 		
+		leia.close();
+		
 		if ( valor % 2 != 0) {
 			valor = Math.pow(valor, 2);
 			System.out.println("O valor inserido elevado ao quadrado é " + valor);

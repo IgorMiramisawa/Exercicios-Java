@@ -18,7 +18,7 @@ public class OrdemCrescente {
 		System.out.println("Digite o terceiro valor");
 		valor3 = leia.nextInt();
 		
-		
+		leia.close();
 		
 		if (valor1 >= valor2 && valor1 >= valor3 && valor3 >= valor2 ) {
 			System.out.println("Os valores são " + valor2 + " , " + valor3 +" , " + valor1 + ".");

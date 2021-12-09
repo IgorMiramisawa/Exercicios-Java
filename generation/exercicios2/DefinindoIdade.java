@@ -13,6 +13,8 @@ public class DefinindoIdade {
 		System.out.println("Digite sua idade ");
 		idade = leia.nextInt();
 		
+		leia.close();
+		
 		if (idade >=10 && idade <=14) {
 			System.out.println("Infantil");
 		}

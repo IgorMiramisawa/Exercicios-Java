@@ -14,10 +14,11 @@ public class QualDeleseMaior {
 			contador++;
 			if (valor1 > maiorvalor){
 				maiorvalor = valor1;
-				
-			}
 			
+			}
+		
 		}
+		leia.close();	
 		System.out.println("O maior valor inserido foi " + maiorvalor);
 		
 		
