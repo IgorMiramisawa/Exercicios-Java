@@ -16,7 +16,7 @@ public class SolicitarIdadeMenos21Mais50 {
 			System.out.println("Digite a " + contador + "º Idade");
 			idade = leia.nextInt();
 			contador++;
-			if (idade < 21) {
+			if (idade < 21 && idade > 0) {
 				menoridade++;
 			} else if (idade > 50) {
 				maioridade++;

@@ -13,7 +13,7 @@ public class DesenvolverPesquisa {
 		while (contador < 8) {
 			System.out.println("Digite sua idade");
 			idade = leia.nextInt();
-			System.out.println("(1-feminino / 2-masculino / 3-Outros),");
+			System.out.println("(1 - Feminino | 2 - Masculino | 3- Outros),");
 			System.out.println("Coloque a opção que representa seu sexo");
 			sexo = leia.nextInt();
 			System.out.println(
